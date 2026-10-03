@@ -235,3 +235,160 @@ footer p {
     height: 30px;
     object-fit: cover;
 }
+
+/* Contact Us Page */
+
+.contact-heading {
+    margin-bottom: 20px;
+    padding: 30px 20px;
+    text-align: center;
+    background-color: var(--secondary-color);
+}
+
+.contact-heading h1 {
+    margin-bottom: 10px;
+    color: var(--accent1-color);
+}
+
+.contact-heading p {
+    line-height: 1.5;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 25px;
+    background-color: var(--secondary-color);
+}
+
+.company-details h2 {
+    margin-bottom: 15px;
+}
+
+.company-details p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.map iframe {
+    display: block;
+    width: 100%;
+    height: 250px;
+    border: 0;
+}
+
+/* Employees */
+
+.employees {
+    margin-bottom: 20px;
+    padding: 25px;
+    background-color: var(--secondary-color);
+}
+
+.employees h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.employee-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.employee-gallery figure {
+    margin: 0;
+    text-align: center;
+}
+
+.employee-gallery img {
+    display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.employee-gallery figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Contact Form */
+
+.contact-form-section {
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: var(--secondary-color);
+}
+
+.contact-form-section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+.form-item label {
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.form-item input,
+.form-item textarea {
+    padding: 10px;
+    border: 1px solid var(--accent1-color);
+    font-family: var(--body-font);
+    font-size: 1rem;
+}
+
+fieldset {
+    margin-bottom: 18px;
+    padding: 15px;
+    border: 1px solid var(--accent1-color);
+}
+
+legend {
+    padding: 0 8px;
+    font-weight: bold;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 10px 0;
+}
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    color: var(--white-color);
+    background-color: var(--accent1-color);
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--primary-color);
+}
